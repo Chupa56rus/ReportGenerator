@@ -13,7 +13,7 @@ public class Report {
     }
 
     public void createTxtReport(StringBuilder reportString) {
-        File report = new File("report.txt");
+        File report = new File("example-example-report.txt");
         try {
             BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(report), "UTF-16"));
             bufferedWriter.write(reportString.toString());
